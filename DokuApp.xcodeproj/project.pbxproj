@@ -144,12 +144,12 @@
 				1B5EA3EB229865DA00C63038 /* Assets.xcassets */,
 				1B5EA3ED229865DA00C63038 /* LaunchScreen.storyboard */,
 				1B5EA3F0229865DA00C63038 /* Info.plist */,
-				1B5EA414229922B800C63038 /* MSTextField.swift */,
 				1B5E0FD522A016E800990A3D /* MainViewController.swift */,
 				1B9401C822A3DCFF006B1D97 /* MenuViewController.swift */,
 				1B5E0FD722A0196800990A3D /* LoadViewController.swift */,
-				1B5E0FD922A0282E00990A3D /* NumberField.swift */,
 				1B9401CA22A3E158006B1D97 /* MenuButton.swift */,
+				1B5E0FD922A0282E00990A3D /* NumberField.swift */,
+				1B5EA414229922B800C63038 /* MSTextField.swift */,
 			);
 			path = DokuApp;
 			sourceTree = "<group>";

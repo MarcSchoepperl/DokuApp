@@ -15,8 +15,6 @@
 		1B5EA3EA2298659600C63038 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B5EA3E82298659600C63038 /* Main.storyboard */; };
 		1B5EA3EC229865DA00C63038 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B5EA3EB229865DA00C63038 /* Assets.xcassets */; };
 		1B5EA3EF229865DA00C63038 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B5EA3ED229865DA00C63038 /* LaunchScreen.storyboard */; };
-		1B5EA3FA229865DB00C63038 /* DokuAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5EA3F9229865DB00C63038 /* DokuAppTests.swift */; };
-		1B5EA405229865DB00C63038 /* DokuAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5EA404229865DB00C63038 /* DokuAppUITests.swift */; };
 		1B5EA415229922B900C63038 /* MSTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5EA414229922B800C63038 /* MSTextField.swift */; };
 		1B5EA419229A983100C63038 /* DokuAppLogo140px.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B5EA416229A982D00C63038 /* DokuAppLogo140px.png */; };
 		1B5EA41A229A983100C63038 /* DokuAppLogo180px.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B5EA417229A982F00C63038 /* DokuAppLogo180px.png */; };
@@ -36,23 +34,6 @@
 		1B9401CB22A3E158006B1D97 /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9401CA22A3E158006B1D97 /* MenuButton.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		1B5EA3F6229865DB00C63038 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1B5EA3D92298659500C63038 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1B5EA3E02298659500C63038;
-			remoteInfo = DokuApp;
-		};
-		1B5EA401229865DB00C63038 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1B5EA3D92298659500C63038 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1B5EA3E02298659500C63038;
-			remoteInfo = DokuApp;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		1B5E0FD522A016E800990A3D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		1B5E0FD722A0196800990A3D /* LoadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadViewController.swift; sourceTree = "<group>"; };
@@ -64,12 +45,6 @@
 		1B5EA3EB229865DA00C63038 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B5EA3EE229865DA00C63038 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B5EA3F0229865DA00C63038 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1B5EA3F5229865DB00C63038 /* DokuAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DokuAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B5EA3F9229865DB00C63038 /* DokuAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DokuAppTests.swift; sourceTree = "<group>"; };
-		1B5EA3FB229865DB00C63038 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1B5EA400229865DB00C63038 /* DokuAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DokuAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B5EA404229865DB00C63038 /* DokuAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DokuAppUITests.swift; sourceTree = "<group>"; };
-		1B5EA406229865DB00C63038 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B5EA414229922B800C63038 /* MSTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSTextField.swift; sourceTree = "<group>"; };
 		1B5EA416229A982D00C63038 /* DokuAppLogo140px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DokuAppLogo140px.png; sourceTree = "<group>"; };
 		1B5EA417229A982F00C63038 /* DokuAppLogo180px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DokuAppLogo180px.png; sourceTree = "<group>"; };
@@ -97,20 +72,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1B5EA3F2229865DB00C63038 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1B5EA3FD229865DB00C63038 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -118,8 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				1B5EA3E32298659500C63038 /* DokuApp */,
-				1B5EA3F8229865DB00C63038 /* DokuAppTests */,
-				1B5EA403229865DB00C63038 /* DokuAppUITests */,
 				1B5EA3E22298659500C63038 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -128,8 +87,6 @@
 			isa = PBXGroup;
 			children = (
 				1B5EA3E12298659500C63038 /* DokuApp.app */,
-				1B5EA3F5229865DB00C63038 /* DokuAppTests.xctest */,
-				1B5EA400229865DB00C63038 /* DokuAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -137,44 +94,20 @@
 		1B5EA3E32298659500C63038 /* DokuApp */ = {
 			isa = PBXGroup;
 			children = (
-				1B5EA432229A9C8800C63038 /* Icon */,
+				1BBEC63722AD0BB7002CAF71 /* Storyboards */,
+				1BBEC63622AD0B3B002CAF71 /* ViewControllers */,
+				1BBEC63522AD0AF8002CAF71 /* Elements */,
+				1B5EA432229A9C8800C63038 /* Icons */,
 				1B5EA3E42298659600C63038 /* AppDelegate.swift */,
-				1B5EA3E62298659600C63038 /* ViewController.swift */,
-				1B5EA3E82298659600C63038 /* Main.storyboard */,
-				1B5EA3EB229865DA00C63038 /* Assets.xcassets */,
-				1B5EA3ED229865DA00C63038 /* LaunchScreen.storyboard */,
 				1B5EA3F0229865DA00C63038 /* Info.plist */,
-				1B5E0FD522A016E800990A3D /* MainViewController.swift */,
-				1B9401C822A3DCFF006B1D97 /* MenuViewController.swift */,
-				1B5E0FD722A0196800990A3D /* LoadViewController.swift */,
-				1B9401CA22A3E158006B1D97 /* MenuButton.swift */,
-				1B5E0FD922A0282E00990A3D /* NumberField.swift */,
-				1B5EA414229922B800C63038 /* MSTextField.swift */,
 			);
 			path = DokuApp;
 			sourceTree = "<group>";
 		};
-		1B5EA3F8229865DB00C63038 /* DokuAppTests */ = {
+		1B5EA432229A9C8800C63038 /* Icons */ = {
 			isa = PBXGroup;
 			children = (
-				1B5EA3F9229865DB00C63038 /* DokuAppTests.swift */,
-				1B5EA3FB229865DB00C63038 /* Info.plist */,
-			);
-			path = DokuAppTests;
-			sourceTree = "<group>";
-		};
-		1B5EA403229865DB00C63038 /* DokuAppUITests */ = {
-			isa = PBXGroup;
-			children = (
-				1B5EA404229865DB00C63038 /* DokuAppUITests.swift */,
-				1B5EA406229865DB00C63038 /* Info.plist */,
-			);
-			path = DokuAppUITests;
-			sourceTree = "<group>";
-		};
-		1B5EA432229A9C8800C63038 /* Icon */ = {
-			isa = PBXGroup;
-			children = (
+				1B5EA3EB229865DA00C63038 /* Assets.xcassets */,
 				1B5EA41C229A9C4000C63038 /* DokuAppLogo20px.png */,
 				1B5EA41F229A9C4000C63038 /* DokuAppLogo29px.png */,
 				1B5EA41D229A9C4000C63038 /* DokuAppLogo40px.png */,
@@ -190,7 +123,37 @@
 				1B5EA417229A982F00C63038 /* DokuAppLogo180px.png */,
 				1B5EA430229A9C6000C63038 /* DokuAppLogo1024px.png */,
 			);
-			path = Icon;
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		1BBEC63522AD0AF8002CAF71 /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				1B5EA414229922B800C63038 /* MSTextField.swift */,
+				1B5E0FD922A0282E00990A3D /* NumberField.swift */,
+				1B9401CA22A3E158006B1D97 /* MenuButton.swift */,
+			);
+			path = Elements;
+			sourceTree = "<group>";
+		};
+		1BBEC63622AD0B3B002CAF71 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1B5EA3E62298659600C63038 /* ViewController.swift */,
+				1B5E0FD722A0196800990A3D /* LoadViewController.swift */,
+				1B9401C822A3DCFF006B1D97 /* MenuViewController.swift */,
+				1B5E0FD522A016E800990A3D /* MainViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1BBEC63722AD0BB7002CAF71 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				1B5EA3E82298659600C63038 /* Main.storyboard */,
+				1B5EA3ED229865DA00C63038 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,42 +176,6 @@
 			productReference = 1B5EA3E12298659500C63038 /* DokuApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1B5EA3F4229865DB00C63038 /* DokuAppTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1B5EA40C229865DB00C63038 /* Build configuration list for PBXNativeTarget "DokuAppTests" */;
-			buildPhases = (
-				1B5EA3F1229865DB00C63038 /* Sources */,
-				1B5EA3F2229865DB00C63038 /* Frameworks */,
-				1B5EA3F3229865DB00C63038 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1B5EA3F7229865DB00C63038 /* PBXTargetDependency */,
-			);
-			name = DokuAppTests;
-			productName = DokuAppTests;
-			productReference = 1B5EA3F5229865DB00C63038 /* DokuAppTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		1B5EA3FF229865DB00C63038 /* DokuAppUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1B5EA40F229865DB00C63038 /* Build configuration list for PBXNativeTarget "DokuAppUITests" */;
-			buildPhases = (
-				1B5EA3FC229865DB00C63038 /* Sources */,
-				1B5EA3FD229865DB00C63038 /* Frameworks */,
-				1B5EA3FE229865DB00C63038 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1B5EA402229865DB00C63038 /* PBXTargetDependency */,
-			);
-			name = DokuAppUITests;
-			productName = DokuAppUITests;
-			productReference = 1B5EA400229865DB00C63038 /* DokuAppUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -261,14 +188,6 @@
 				TargetAttributes = {
 					1B5EA3E02298659500C63038 = {
 						CreatedOnToolsVersion = 10.2.1;
-					};
-					1B5EA3F4229865DB00C63038 = {
-						CreatedOnToolsVersion = 10.2.1;
-						TestTargetID = 1B5EA3E02298659500C63038;
-					};
-					1B5EA3FF229865DB00C63038 = {
-						CreatedOnToolsVersion = 10.2.1;
-						TestTargetID = 1B5EA3E02298659500C63038;
 					};
 				};
 			};
@@ -286,8 +205,6 @@
 			projectRoot = "";
 			targets = (
 				1B5EA3E02298659500C63038 /* DokuApp */,
-				1B5EA3F4229865DB00C63038 /* DokuAppTests */,
-				1B5EA3FF229865DB00C63038 /* DokuAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -317,20 +234,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1B5EA3F3229865DB00C63038 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1B5EA3FE229865DB00C63038 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -349,36 +252,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1B5EA3F1229865DB00C63038 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1B5EA3FA229865DB00C63038 /* DokuAppTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1B5EA3FC229865DB00C63038 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1B5EA405229865DB00C63038 /* DokuAppUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		1B5EA3F7229865DB00C63038 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1B5EA3E02298659500C63038 /* DokuApp */;
-			targetProxy = 1B5EA3F6229865DB00C63038 /* PBXContainerItemProxy */;
-		};
-		1B5EA402229865DB00C63038 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1B5EA3E02298659500C63038 /* DokuApp */;
-			targetProxy = 1B5EA401229865DB00C63038 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		1B5EA3E82298659600C63038 /* Main.storyboard */ = {
@@ -552,88 +426,6 @@
 			};
 			name = Release;
 		};
-		1B5EA40D229865DB00C63038 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = AF476XGRW8;
-				INFOPLIST_FILE = DokuAppTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = MS.DokuAppTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DokuApp.app/DokuApp";
-			};
-			name = Debug;
-		};
-		1B5EA40E229865DB00C63038 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = AF476XGRW8;
-				INFOPLIST_FILE = DokuAppTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = MS.DokuAppTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DokuApp.app/DokuApp";
-			};
-			name = Release;
-		};
-		1B5EA410229865DB00C63038 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = AF476XGRW8;
-				INFOPLIST_FILE = DokuAppUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = MS.DokuAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = DokuApp;
-			};
-			name = Debug;
-		};
-		1B5EA411229865DB00C63038 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = AF476XGRW8;
-				INFOPLIST_FILE = DokuAppUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = MS.DokuAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = DokuApp;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -651,24 +443,6 @@
 			buildConfigurations = (
 				1B5EA40A229865DB00C63038 /* Debug */,
 				1B5EA40B229865DB00C63038 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1B5EA40C229865DB00C63038 /* Build configuration list for PBXNativeTarget "DokuAppTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1B5EA40D229865DB00C63038 /* Debug */,
-				1B5EA40E229865DB00C63038 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1B5EA40F229865DB00C63038 /* Build configuration list for PBXNativeTarget "DokuAppUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1B5EA410229865DB00C63038 /* Debug */,
-				1B5EA411229865DB00C63038 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

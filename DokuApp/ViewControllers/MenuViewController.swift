@@ -36,10 +36,12 @@ class MenuViewController: UIViewController {
     }
     
     override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+        UIView.setAnimationsEnabled(false)
         super.viewWillTransition(to: size, with: coordinator)
-        if (UIDevice.current.orientation.isLandscape){
+        if (UIDevice.current.orientation.isLandscape){            
             performSegue(withIdentifier: "LoadMain", sender: self)
         }
+        coordinator.notifyWhenInteractionChanges {_ in UIView.setAnimationsEnabled(true)}
     }
     
 }

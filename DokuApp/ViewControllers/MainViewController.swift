@@ -121,6 +121,7 @@ class MainViewController: UIViewController, UIPickerViewDataSource, UIPickerView
     }
     
     override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+        UIView.setAnimationsEnabled(false)
         super.viewWillTransition(to: size, with: coordinator)
         if (UIDevice.current.orientation.isPortrait){
             GlobalBauvorhaben = FieldBauvorhaben.text ?? ""
@@ -132,6 +133,7 @@ class MainViewController: UIViewController, UIPickerViewDataSource, UIPickerView
             GlobalMangel = FieldMangel.text ?? ""
             performSegue(withIdentifier: "LoadMenu", sender: self)
         }
+        coordinator.notifyWhenInteractionChanges {_ in UIView.setAnimationsEnabled(true)}
     }
 
 }
